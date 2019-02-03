@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008.12.19 17:58:53.936.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Plugins\365dni.cz\General.pas=</Transaction>
+    <Transaction>2009.02.01 09:12:48.436.dproj,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Plugins\teleguide.info\p365dnicz.dproj=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Plugins\teleguide.info\teleguideinfo.dproj</Transaction>
+    <Transaction>2009.02.01 13:55:23.890.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Plugins\teleguide.info\Unit1.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Plugins\teleguide.info\General.pas</Transaction>
+    <Transaction>2009.02.01 14:21:24.673.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Plugins\teleguide.info\Unit1.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Plugins\teleguide.info\XMLProcess.pas</Transaction>
+    <Transaction>2009.03.14 07:50:02.584.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\General\uFileFolder.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

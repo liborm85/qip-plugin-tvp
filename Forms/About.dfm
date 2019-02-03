@@ -1,0 +1,230 @@
+object frmAbout: TfrmAbout
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = '...'
+  ClientHeight = 300
+  ClientWidth = 400
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object imgBg: TImage
+    Left = 0
+    Top = 0
+    Width = 50
+    Height = 50
+    AutoSize = True
+    Center = True
+    Transparent = True
+  end
+  object lblTitle: TLabel
+    Left = 49
+    Top = 0
+    Width = 351
+    Height = 50
+    AutoSize = False
+    Caption = ' TVp'
+    Color = clBlack
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -35
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Shape1: TShape
+    Left = -1
+    Top = 80
+    Width = 402
+    Height = 167
+  end
+  object lblAuthor: TLabel
+    Left = 8
+    Top = 129
+    Width = 42
+    Height = 13
+    Caption = 'Author:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblA: TLabel
+    Left = 87
+    Top = 129
+    Width = 38
+    Height = 13
+    Caption = 'Authors'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblEmail: TLabel
+    Left = 8
+    Top = 148
+    Width = 33
+    Height = 13
+    Caption = 'Email:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblAuthorEmail: TLabel
+    Left = 87
+    Top = 148
+    Width = 98
+    Height = 13
+    Cursor = crHandPoint
+    Caption = 'lms.cze7@gmail.com'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHotLight
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    OnClick = lblAuthorEmailClick
+    OnMouseEnter = lblAuthorEmailMouseEnter
+    OnMouseLeave = lblAuthorEmailMouseLeave
+  end
+  object lblLangs: TLabel
+    Left = 87
+    Top = 186
+    Width = 311
+    Height = 13
+    AutoSize = False
+    Caption = 'Pi'#353'te pouze '#269'esky, slovensky nebo anglicky.'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    WordWrap = True
+  end
+  object lblWeb: TLabel
+    Left = 8
+    Top = 205
+    Width = 28
+    Height = 13
+    Caption = 'Web:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblPluginWeb: TLabel
+    Left = 87
+    Top = 205
+    Width = 74
+    Height = 13
+    Cursor = crHandPoint
+    Caption = 'http://qipim.cz/'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHotLight
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    OnClick = lblPluginWebClick
+    OnMouseEnter = lblPluginWebMouseEnter
+    OnMouseLeave = lblPluginWebMouseLeave
+  end
+  object lblVersion: TLabel
+    Left = 178
+    Top = 35
+    Width = 121
+    Height = 13
+    AutoSize = False
+    Caption = 'Version ?.?.?'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblIconPackAuthor: TLabel
+    Left = 8
+    Top = 224
+    Width = 120
+    Height = 13
+    Cursor = crHandPoint
+    Caption = 'Icon Pack by Mark James'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    OnClick = lblIconPackAuthorClick
+    OnMouseEnter = lblIconPackAuthorMouseEnter
+    OnMouseLeave = lblIconPackAuthorMouseLeave
+  end
+  object lblHint: TLabel
+    Left = 24
+    Top = 89
+    Width = 353
+    Height = 34
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Hint...hint...hint...hint'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsItalic]
+    ParentFont = False
+    WordWrap = True
+  end
+  object lblAuthorEmail2: TLabel
+    Left = 87
+    Top = 167
+    Width = 107
+    Height = 13
+    Cursor = crHandPoint
+    Caption = 'panther7@centrum.cz'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHotLight
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    OnClick = lblAuthorEmail2Click
+    OnMouseEnter = lblAuthorEmailMouseEnter
+    OnMouseLeave = lblAuthorEmailMouseLeave
+  end
+  object btnClose: TBitBtn
+    Left = 157
+    Top = 253
+    Width = 97
+    Height = 25
+    Caption = 'Close'
+    DoubleBuffered = True
+    ParentDoubleBuffered = False
+    TabOrder = 0
+    TabStop = False
+    OnClick = btnCloseClick
+  end
+end

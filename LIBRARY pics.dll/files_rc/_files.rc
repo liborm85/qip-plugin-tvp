@@ -1,0 +1,42 @@
+10     RCDATA  "0010_tvp_big.png"
+11     RCDATA  "0011_tvp.png"
+12     RCDATA  "0012_program.png"
+13     RCDATA  "0013_noprogram.png"
+14     RCDATA  "0014_guide.png"
+15     RCDATA  "0015_check.png"
+
+20     RCDATA  "0020_options.png"
+21     RCDATA  "0021_open.png"
+22     RCDATA  "0022_edit.png"
+23     RCDATA  "0023_refresh.png"
+24     RCDATA  "0024_edititems.png"
+25     RCDATA  "0025_search.png"
+26     RCDATA  "0026_close.png"
+
+27     RCDATA  "0027_info.png"
+28     RCDATA  "0028_remove.png"
+
+30     RCDATA  "0030_general.png"
+31     RCDATA  "0031_advanced.png"
+32     RCDATA  "0032_layout.png"
+33     RCDATA  "0033_hotkeys.png"
+34     RCDATA  "0034_plugins.png"
+35     RCDATA  "0035_connect.png"
+
+40     RCDATA  "0040_plan.png"
+41     RCDATA  "0041_plan_add.png"
+42     RCDATA  "0042_plan_delete.png"
+43     RCDATA  "0043_plan_edit.png"
+
+44     RCDATA  "0044_item_add.png"
+45     RCDATA  "0045_item_remove.png"
+46     RCDATA  "0046_item_up.png"
+47     RCDATA  "0047_item_down.png"
+
+48     RCDATA  "0048_font.png"
+49     RCDATA  "0049_color.png"
+
+60     RCDATA  "0060_checkmenuitem.png"
+61     RCDATA  "0061_update.png"
+62     RCDATA  "0062_comment.png"
+

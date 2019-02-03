@@ -1,0 +1,17 @@
+FileTools is a collection of several objects to copy and pack files using
+a separate thread. It can be used as a Delphi interface to the zlib-library
+from Jean-Loup Gailly and Mark Adler.
+
+Implementation to your program is easy: You just need to include the unit in the
+uses statement of your program.
+A delphi sample program to show how to use is included.
+
+Features:
+---------
+  - Copying files in an own thread
+  - Packing and unpacking of gz-format (gz-files contain original filename and
+    timestamp) in an own thread
+  - Creating of Zip-compatible archives, Zip64-Format is supported.
+
+J. Rathlev, Nov. 2005
+

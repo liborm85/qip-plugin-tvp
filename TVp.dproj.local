@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.01.15 17:43:07.674.pas,E:\Libor\Programy\Delphi\FMtune 2009 (Unicode)\Unit1.pas=E:\Libor\Programy\Delphi\FMtune 2009 (Unicode)\uINI.pas</Transaction>
+    <Transaction>2009.01.15 17:43:13.787.pas,E:\Libor\Programy\Delphi\FMtune 2009 (Unicode)\uINI.pas=E:\Libor\Programy\Delphi\FMtune 2009 (Unicode)\General\uINI.pas</Transaction>
+    <Transaction>2009.01.16 16:26:37.362.dproj,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\FMtune.dproj=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\TVp.dproj</Transaction>
+    <Transaction>2009.01.16 16:26:55.661.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Bass\bass.pas=</Transaction>
+    <Transaction>2009.01.16 16:26:55.663.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Bass\BassPlayer.pas=</Transaction>
+    <Transaction>2009.01.16 16:26:55.663.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Bass\BassPlayer.dfm=</Transaction>
+    <Transaction>2009.01.16 16:26:55.663.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Bass\bass_fx.pas=</Transaction>
+    <Transaction>2009.01.16 16:29:31.271.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Units\uEqualizer.pas=</Transaction>
+    <Transaction>2009.01.16 16:29:31.272.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Units\uNowPlaying.pas=</Transaction>
+    <Transaction>2009.01.16 16:29:31.273.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Units\uStatistics.pas=</Transaction>
+    <Transaction>2009.01.16 16:29:31.305.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Units\uTheme.pas=</Transaction>
+    <Transaction>2009.01.16 16:31:36.955.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\EditStations.pas=</Transaction>
+    <Transaction>2009.01.16 16:31:36.955.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\EditStations.dfm=</Transaction>
+    <Transaction>2009.01.16 16:31:36.957.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\Equalizer.pas=</Transaction>
+    <Transaction>2009.01.16 16:31:36.957.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\Equalizer.dfm=</Transaction>
+    <Transaction>2009.01.16 16:31:36.958.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\FastAddStation.pas=</Transaction>
+    <Transaction>2009.01.16 16:31:36.958.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\FastAddStation.dfm=</Transaction>
+    <Transaction>2009.01.16 16:31:36.960.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\ImportExport.pas=</Transaction>
+    <Transaction>2009.01.16 16:31:36.960.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\ImportExport.dfm=</Transaction>
+    <Transaction>2009.01.16 16:31:36.961.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\Info.pas=</Transaction>
+    <Transaction>2009.01.16 16:31:36.961.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\Info.dfm=</Transaction>
+    <Transaction>2009.01.16 16:31:36.963.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\Recording.pas=</Transaction>
+    <Transaction>2009.01.16 16:31:36.963.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\Recording.dfm=</Transaction>
+    <Transaction>2009.01.16 16:31:36.964.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\Volume.pas=</Transaction>
+    <Transaction>2009.01.16 16:31:36.964.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\Volume.dfm=</Transaction>
+    <Transaction>2009.01.22 17:02:02.223.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\PlanProgram.pas</Transaction>
+    <Transaction>2009.01.22 17:02:02.223.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\PlanProgram.dfm</Transaction>
+    <Transaction>2009.01.22 17:02:52.956.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\PlanProgram.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\PlanProgram.pas</Transaction>
+    <Transaction>2009.01.22 17:02:52.956.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\PlanProgram.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\PlanProgram.dfm</Transaction>
+    <Transaction>2009.01.22 17:04:10.873.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\PlanProgram.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\EditPlan.pas</Transaction>
+    <Transaction>2009.01.22 17:04:10.873.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\PlanProgram.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\EditPlan.dfm</Transaction>
+    <Transaction>2009.01.22 17:06:30.211.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\PlanList.pas</Transaction>
+    <Transaction>2009.01.22 17:06:30.211.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\PlanList.dfm</Transaction>
+    <Transaction>2009.01.22 17:06:35.021.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\PlanList.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\PlanList.pas</Transaction>
+    <Transaction>2009.01.22 17:06:35.021.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\PlanList.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\PlanList.dfm</Transaction>
+    <Transaction>2009.01.22 17:06:45.860.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\EditPlan.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\PlanEdit.pas</Transaction>
+    <Transaction>2009.01.22 17:06:45.860.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\EditPlan.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\PlanEdit.dfm</Transaction>
+    <Transaction>2009.01.31 15:29:28.045.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\uOptions.pas</Transaction>
+    <Transaction>2009.01.31 15:29:48.048.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\uOptions.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\General\uOptions.pas</Transaction>
+    <Transaction>2009.02.01 08:20:22.938.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\ItemOptions.pas</Transaction>
+    <Transaction>2009.02.01 08:20:22.946.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\ItemOptions.dfm</Transaction>
+    <Transaction>2009.02.01 08:20:55.869.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\ItemOptions.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\ItemOptions.pas</Transaction>
+    <Transaction>2009.02.01 08:20:55.869.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\ItemOptions.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\ItemOptions.dfm</Transaction>
+    <Transaction>2009.02.18 17:59:49.703.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\ProgramInfo.pas</Transaction>
+    <Transaction>2009.02.18 17:59:49.703.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\ProgramInfo.dfm</Transaction>
+    <Transaction>2009.02.18 18:00:37.779.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\ProgramInfo.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\ProgramInfo.pas</Transaction>
+    <Transaction>2009.02.18 18:00:37.779.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\ProgramInfo.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\ProgramInfo.dfm</Transaction>
+    <Transaction>2009.03.08 16:12:34.274.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\CLItems.pas</Transaction>
+    <Transaction>2009.03.08 16:12:34.281.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\CLItems.dfm</Transaction>
+    <Transaction>2009.03.08 16:12:39.426.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\CLItems.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\CLItems.pas</Transaction>
+    <Transaction>2009.03.08 16:12:39.426.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\CLItems.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\CLItems.dfm</Transaction>
+    <Transaction>2009.03.11 17:49:04.292.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Colors.pas</Transaction>
+    <Transaction>2009.03.11 17:49:04.292.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Colors.dfm</Transaction>
+    <Transaction>2009.03.11 17:49:49.277.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Colors.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\Colors.pas</Transaction>
+    <Transaction>2009.03.11 17:49:49.277.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Colors.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\Colors.dfm</Transaction>
+    <Transaction>2009.03.19 17:20:46.738.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\InputForm.pas</Transaction>
+    <Transaction>2009.03.19 17:20:46.742.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Unit1.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\InputForm.dfm</Transaction>
+    <Transaction>2009.03.19 17:20:51.619.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\InputForm.pas=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\InputForm.pas</Transaction>
+    <Transaction>2009.03.19 17:20:51.619.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\InputForm.dfm=E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\InputForm.dfm</Transaction>
+    <Transaction>2009.03.19 17:45:58.692.pas,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\InputForm.pas=</Transaction>
+    <Transaction>2009.03.19 17:45:58.692.dfm,E:\Libor\Programy\Delphi\TVp 2009 (Unicode)\Forms\InputForm.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

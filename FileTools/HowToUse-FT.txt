@@ -1,0 +1,155 @@
+                               Using FileTools
+                               ===============
+
+FileTools is a collection of several objects to copy and pack files using
+a separate thread. It can be used as a Delphi interface to the zlib-library
+from Jean-Loup Gailly and Mark Adler.
+Implementation to your program is easy: You just need to include the unit in the
+uses statement of your program and add the appropriate search path to your delphi
+project options.
+
+Actual version: 2.2 (03.07.06)
+
+Features:
+---------
+  - Copying files in an own thread
+  - Packing and unpacking of gz-format (gz-files contain original filename and
+    timestamp) in an own thread
+  - Creating of Zip-compatible archives, Zip64-Format is supported.
+
+For more details refer to the sample program.
+
+Object for file copy:
+---------------------
+Copy file from ASourceName to ADestName
+  
+  TCopyThread = class (TThread)
+   ...
+  public
+  // ASourceName  = source file,  ADestName = dest. file
+    constructor Create (ASourceName,ADestName : string; ASuspend : Boolean;
+                        ABufSize : integer; APriority : TThreadPriority);
+    destructor Destroy; override;
+    property ErrorCode : integer read FError;
+    property Done  : boolean read GetDone;
+    property OnProgress : TProgressEvent read FOnProgress write FOnProgress;
+    end;
+
+
+Objects for gz-format:
+----------------------
+Pack file from ASourceName to ADestName
+
+  TGZipThread = class (TCopyThread)
+   ...
+  public
+  // ASourceName  = source file,  ADestName = gz-file
+    constructor Create (ASourceName,ADestName : string; ASuspend : Boolean;
+                        ABufSize : integer; APriority : TThreadPriority);
+    property CompressionLevel : TZCompressionLevel read FCompLevel write FCompLevel;
+    property CompressionType : TZStrategy read FCompType write FCompType;
+    property Crc : cardinal read FCrc;
+    end;
+
+Unpack file from ASourceName to ADestName
+
+  TGUnZipThread = class (TCopyThread)
+   ...
+  public
+  // ASourceName  = gz-file,  ADestFolder = destination folder
+    constructor Create (ASourceName,ADestFolder : string; ASuspend : Boolean;
+                        ABufSize : integer; APriority : TThreadPriority);
+    property Crc : cardinal read FCrc;
+    end;
+
+Help routine for gz-format:
+----------------------------
+Get file info from gz-file
+
+  TGzFileInfo = record
+    Filename : string;          // original filename
+    DateTime : integer;         // original timestamp
+    Attr     : word;            // original file attributes
+    USize    : cardinal;        // original size
+    end;
+
+  function GzFileInfo (Filename: string; var FileInfo : TGzFileInfo) : boolean;
+
+Object for Zip-format:
+----------------------
+Create Zip archive
+
+  TZip = class (TFileStream)
+   ...
+  public
+   // Initialize Zip archive
+    constructor Create (Destination,BasicDirectory : string; ABufSize : integer);
+    destructor Destroy; override;
+  // Add file to Zip archive
+    procedure Add (SourceName : string);
+    procedure Suspend;
+    procedure Resume;
+    property ThreadPriority : TThreadPriority read FPriority write FPriority;
+    property OnProgress : TProgressEvent read FOnProgress write FOnProgress;
+    end;
+    
+
+Acknowledgments:
+----------------
+  - ZLibEx from
+  - needs the zlib-library from Jean-Loup Gailly and Mark Adler
+    (compiled object files from http://www.base2ti.com are included)
+
+
+List of files
+-------------
+  HowToUse.txt     this file
+  FileTools.pas    Delphi unit with the routines described above
+  
+  subdirectory ZLib:
+    ZLibEx.pas
+    Readme.txt   (ref. to ZLibEx)
+    adler32.obj
+    compress.obj
+    crc32.obj
+    deflate.obj
+    infback.obj
+    inffast.obj
+    inflate.obj
+    inftrees.obj
+    trees.obj
+
+  subdirectory Sample
+
+
+----------------------------------------------------------------------------------------
+
+Legal issues
+------------
+Copyright (C) 2006 by J. Rathlev
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+
+J. Rathlev
+Institut für Experimentelle und Angewandte Physik
+Universität Kiel
+Olshausenstr. 40
+24098 Kiel
+E-Mail: rathlev(a)physik.uni-kiel.de
+
+

@@ -1,0 +1,44 @@
+Unidad BZip2 por Edison Mera
+Versión 1.01
+Edición 04-01-2000
+e-mail: edmera@yahoo.com
+página web:
+http://www.geocities.com/SiliconValley/Grid/3690/
+
+Cualquier observación acerca de este software es bien recibida.
+Este software es "FREEWARE", es decir, usted no está obligado a pagar nada por él.
+
+Edison Mera Menéndez.
+Isla Santa Fe 378 y T. de Berlanga
+Quito - Ecuador
+SudAmérica.
+
+
+1. Revisión y comentarios
+
+Para ver mejor este archivo, ábralo en el WordPad.
+Si usted modifica el código fuente o lo usa en algún producto comercial, por favor hágamelo saber.
+
+Esta unidad es muy similar a la unidad zlib que viene junto con el Delphi, pero utiliza el método de compresión disponible en el programa BZIP2 que es mejor.  BZIP2 es un programa de compresión escrito por Julian Seward, para mayor información consulte http://sourceware.cygnus.com/bzip2/index.html.
+
+2. Instalación
+
+- El archivo makefile.bcb (usar: make -f makefile.bcb) puede ser usado para recompilar bzip2 usando Borland C++ Builder, luego de la compilación, los archivos objeto presentes en el subdirectorio nostdio son para usarlos con Delphi.
+- Agrege el archivo bzip2.pas al proyecto Delphi que requiera dicha unidad.
+
+3. Licencia
+
+Desacuerdo de garantía:
+El presente software es concedido "COMO ESTA", sin garantía de ninguna clase, expresa o implícita, incluyendo pero no limitado a las garantías de comerciabilidad y adecuación para un propósito en particular.  La persona que use este software asumirá todos los riesgos de calidad y rendimiento del mismo.  El autor no será responsable por algún daño especial, incidencial, consecuencial o similares, así como la pérdida de datos por alguna otra razón, aún si el autor o un agente del autor haya sido avisado de la posibilidad de dichos daños.  Aún en el caso de responsabilidad por parte del autor de algunos daños, esta nunca excederá el precio pagado por la licencia de uso del software, de acuerdo a la forma del acuerdo.
+
+4. Historia
+
+05-12-1999 Versión 1.00
+Primera publicación, basada en BZIP2 0.9.5d
+
+04-01-2000 Versión 1.01
+Correción en la documentación, la nueva página web para el programa bzip2 es http://sourceware.cygnus.com/bzip2/index.html.
+
+5. Problemas detectados:
+
+Ninguno por el momento.

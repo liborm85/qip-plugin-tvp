@@ -1,0 +1,10 @@
+File: bzip2.zip
+Product: BZip2 unit
+Version: 1.01
+Author: Edison Mera Menéndez
+E-Mail: edmera@yahoo.com
+Target: Delphi 3.x, Delphi 4.x, Delphi 5.x
+Platform: W95, W98
+Status: Fully Functional 
+Source: Included 
+Description: This unit is similar to the zlib unit available in the Delphi cd-rom, but uses the better compression method present in the program bzip2.

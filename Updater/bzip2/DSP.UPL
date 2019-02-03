@@ -1,0 +1,46 @@
+[DSP upload]
+File Name=bzip2.zip
+Replace File=
+File Status=Freeware
+Full Source Included=Y
+Delphi 1.0x=N
+Delphi 2.0x=N
+Delphi 3.0x=Y
+Delphi 4.0x=Y
+Delphi 5.0x=Y
+C++ Builder 1.0x=N
+C++ Builder 3.0x=N
+C++ Builder 4.0x=N
+Version=1.01
+count=4
+1=This unit is similar to the zlib unit available in the Delphi cd-rom, but
+2=uses the better compression method present in the program bzip2.
+3=Bzip2 is a compression program written by Julian Seward, for more
+4=information see http://sourceware.cygnus.com/bzip2/index.html.
+Note=
+Additional info=
+Category=Compression, Encryption
+Platform=
+Group=Component/Code
+
+[Versions available]
+Delphi 1.0x=
+Delphi 2.0x=
+Delphi 3.0x=
+Delphi 4.0x=
+Delphi 5.0x=
+C++ Builder 1.0x=
+C++ Builder 3.0x=
+C++ Builder 4.0x=
+
+[DSP Support]
+DSP Support=Y
+
+[Uploader_1]
+Author name=Edison Mera Menéndez
+Contact=
+Author E-mail=edmera@yahoo.com
+Author URL=http://www.geocities.com/SiliconValley/Grid/3690
+count=0
+Author Section=VCL creator
+UpdateDSP=N
